@@ -1,0 +1,156 @@
+/* import fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  width: 95%;
+  margin: 0px auto;
+}
+
+/* header */
+header, #myWorks{
+  background-color: #25b79f;
+  height: 100vh;
+  /* border:2px solid red; */
+
+}
+
+/* navigation */
+.nav{
+  background-color:#07374a;
+  box-shadow: 0px 5px 10px rgba(0,0,0,0.2);
+  position: fixed;
+  top: 0;
+  z-index: 300;
+  width: 100%;
+}
+.nav-container{
+  width: 90%;
+  margin: 0px auto;
+  display: flex;
+  padding:1rem;
+  align-items: center;
+  
+}
+
+.nav-brand{
+  color: #f0f0e6;
+  font-size: 2rem;
+  font-weight: 500;
+  text-decoration: none;
+  margin-right: 1rem;
+  letter-spacing: 2px;
+}
+
+.menu{
+  display: flex;
+  list-style: none;
+  margin-left: auto;
+  align-items: center;
+  
+}
+.menu a{
+
+  color: #f0f0e6;
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-weight: 600;
+  margin-right: 1rem;
+  font-size: 18px;
+}
+
+.menu a:hover {
+  border-bottom: 3px solid #f0f0e6;
+}
+
+/* header content */
+.header-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+  height: 100%;
+  /* border:2px solid red */
+}
+
+.header-content img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  background-color: #07374a;
+  box-shadow: 0px 5px 10px rgba(0,0,0,0.2);
+} 
+
+.btn{
+  background-color: #07374a;
+  color: #f0f0e6;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 1.3rem;
+  font-weight: 500;
+  letter-spacing: 2px;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  text-decoration: none;
+  border-radius: 5px;
+  box-shadow: 0px 5px 10px rgba(0,0,0,0.2);
+}
+
+.btn:hover{
+  background-color: #f0f0e6;
+  color: #07374a;
+  box-shadow: 0px 5px 10px rgba(0,0,0,0.2);
+}
+
+.header-content h1{
+  color: #07374a;
+  font-size: 4rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+.header-content p{
+  color: #f0f0e6;
+  font-size: 1.5rem;
+  font-weight: 500;
+  letter-spacing: 2px;
+  margin-bottom: 1rem;
+}
+
+
+
+/* footer */
+footer{
+  background-color: #25b79f;
+  box-shadow: 0px 5px 10px rgba(0,0,0,0.2);
+  color: #07374a;
+  padding: 1rem;
+  font-size: 1.3rem;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+
+
+
+
+
+
+  
+
+
+
